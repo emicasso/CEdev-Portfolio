@@ -1,0 +1,26 @@
+.hero {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-flow: column;
+        flex-direction: column;
+}
+
+Button:hover {
+        background-color: #340847 !important;
+        border-color: #340847  !important;
+}
+
+@media screen and (max-width: 960px) {
+        .logo img {
+                width: 30% !important;
+        }
+
+        .about-text {
+                text-align: center;
+        }
+
+        .about-img {
+                display: none;
+        }
+}

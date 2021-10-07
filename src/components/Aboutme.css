@@ -1,0 +1,9 @@
+.about-container {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
