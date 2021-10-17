@@ -44,7 +44,7 @@ function Hero() {
                 <h1>
                   Hi everyone<span>&#128075;</span>!
                 </h1>
-                <h2>I am Cassoni Emiliano (CE) </h2>
+                <h2>I am Cassoni Emiliano (CE)</h2>
                 <h5>
                   Welcome on my portfolio page! I'm Junior Front End <br />{" "}
                   Developer on the way to Full Stack, currently working as
