@@ -1,16 +1,24 @@
 import Button from "react-bootstrap/Button";
-import React from "react";
+import React, { useEffect } from "react";
 import "./Hero.css";
 
 import { Col, Container, Row } from "react-bootstrap";
 import logo from "../media/logo.png";
 import background from "../media/backtop.svg";
+import { Link } from "react-router-dom";
+
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 function Hero() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <Container
       fluid
-      className="hero-container py-5"
+      className=" py-5"
       style={{
         backgroundImage: `url(${background})`,
         backgroundPosition: "center",
@@ -21,18 +29,18 @@ function Hero() {
       <Container className="hero align-items-center  justify-content-center pb-5">
         <Container className="py-5">
           <Row className="text-center justify-content-center ">
-            <Container className="logo">
+            {/* <Container className="logo">
               <img
                 src={""}
                 alt=""
                 className="img-fluid "
                 style={{ width: "8%" }}
               />
-            </Container>
+            </Container> */}
           </Row>
           <Container>
             <Row className="justify-content-center align-items-center">
-              <Col className="text-light about-text">
+              <Col className="text-light about-text" data-aos="fade-right">
                 <h1>
                   Hi everyone<span>&#128075;</span>!
                 </h1>
@@ -45,12 +53,14 @@ function Hero() {
                 </h5>
                 <p>Living in Corrientes, 🇦🇷. Land of Messi and Mate. </p>
 
-                <Button variant="outline-dark text-light border-light">
-                  Contact Me
-                </Button>
+                <Link to="/contact">
+                  <Button variant="outline-dark text-light border-light">
+                    Contact Me
+                  </Button>
+                </Link>
               </Col>
               <Col className="text-center about-img">
-                <Container className="about">
+                <Container className="about" data-aos="fade-left">
                   <img src={logo} alt="" className="img-fluid rounded" />
                 </Container>
               </Col>
