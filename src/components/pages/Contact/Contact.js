@@ -91,8 +91,7 @@ export const Contact = () => {
                     ></textarea>
                   </div>
                   <div className="app-form-group buttons">
-                    <button className="app-form-button border rounded mx-2">CANCEL</button>
-                    <button className="app-form-button border rounded">SEND</button>
+                    <button className="app-form-button border rounded">SEND MENSSAGE</button>
                   </div>
                 </div>
               </div>
