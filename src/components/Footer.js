@@ -18,11 +18,11 @@ function Footer() {
           <div className="col-sm-12 text-center ">
             <img src={logo} alt="" className="img-fluid w-25" />
           </div>
-          <div className="col-sm-12 text-center ">
+          <div className="col-sm-12 text-center " >
             {SidebarData.map((item, index) => {
               return (
-                  <span key={index}>
-                    <Link to={item.path}>
+                <span key={index} >
+                    <Link to={item.path} style={{textDecoration:'none'}}>
                       <span
                         style={{
                           color: "rgba(255, 255, 255, 0.6)",
