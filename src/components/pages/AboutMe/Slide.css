@@ -1,0 +1,93 @@
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  box-shadow: none;
+}
+
+.slide__content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.slide-toggle {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.slide-toggle--special .progress-bar__inner {
+  transition: background 300ms;
+}
+
+.slide-toggle--special.expanded .progress-bar__inner {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.slide-toggle__header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+  position: relative;
+}
+
+.slide-toggle__toggle {
+  font-size: 1.5rem;
+  position: absolute;
+  border-style: none;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 2.5rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.slide-toggle__box-inner {
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.slide-toggle__box-inner p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.slide-toggle__box-inner button {
+  margin: 1rem auto 0;
+  display: block;
+}
+
+
+.progress-bar {
+  height: 2px;
+  display: inline-block;
+  flex: 1 1 0%;
+  background-color: #000 !important;
+}
+
+.progress-bar__inner {
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  top: 0;
+  left: 0;
+  will-change: transform;
+  background: rgba(77, 53, 209, 0.5);
+}
+
+.logo_import {
+  max-width: auto;
+  max-height: 20px;
+}
