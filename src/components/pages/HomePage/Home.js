@@ -3,7 +3,8 @@ import "../../../App.css";
 import Hero from "../../Hero";
 import Cards from "../../Cards";
 import Aboutme from "../../Aboutme";
-import Footer from "../../Footer";
+
+
 
 function Home() {
   return (
@@ -11,7 +12,6 @@ function Home() {
       <Hero />
       <Cards />
       <Aboutme />
-      <Footer/>
     </div>
   );
 }
