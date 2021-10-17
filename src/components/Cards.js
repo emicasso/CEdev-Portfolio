@@ -7,7 +7,7 @@ import Aos from "aos";
 
 import AquariumPage from "../media/Acuarium_Trim.mp4";
 import cedevPage from "../media/cedev_Trim.mp4";
-import DviajePage from "../media/DviajePage.png";
+import DviajePage from "../media/dviaje_Trim.mp4";
 import florbyfranPage from "../media/fbf_Trim.mp4";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
