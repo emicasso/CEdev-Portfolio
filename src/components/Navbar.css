@@ -1,7 +1,6 @@
 .navbar {
     height: 60px !important;
     display: flex !important;
-    justify-content: start !important;
     align-items: center !important;
     position: fixed !important;
     z-index: 2;
@@ -34,7 +33,6 @@
   
   .nav-text {
     display: flex !important;
-    justify-content: start !important;
     align-items: center !important;
     padding: 8px 0px 8px 16px !important;
     list-style: none !important;
@@ -64,7 +62,6 @@
     width: 100% !important;
     height: 80px !important;
     display: flex !important;
-    justify-content: start !important;
     align-items: center !important;
   }
   
