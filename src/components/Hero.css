@@ -7,8 +7,14 @@
 }
 
 Button:hover {
-        background-color: #340847 !important;
-        border-color: #340847  !important;
+        background-color: rgb(180, 61, 61) !important;
+        border-color: #000000 !important;
+}
+
+.hero-title h1 {
+        color: rgb(180, 61, 61);
+        font-weight: 500;
+        font-size: 36px;
 }
 
 @media screen and (max-width: 960px) {

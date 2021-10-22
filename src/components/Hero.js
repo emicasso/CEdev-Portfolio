@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import "./Hero.css";
 
 import { Col, Container, Row } from "react-bootstrap";
-import logo from "../media/logo.png";
+import logo from "../media/logoCEDEV.png";
 import background from "../media/backtop.svg";
 import { Link } from "react-router-dom";
 
@@ -40,11 +40,11 @@ function Hero() {
           </Row>
           <Container>
             <Row className="justify-content-center align-items-center">
-              <Col className="text-light about-text" data-aos="fade-right">
+              <Col className="text-light about-text hero-title" data-aos="fade-right">
                 <h1>
                   Hi everyone<span>&#128075;</span>!
                 </h1>
-                <h2>I am Cassoni Emiliano (CE)</h2>
+                <h1>I am Cassoni Emiliano (CE)</h1>
                 <h5>
                   Welcome on my portfolio page! I'm Junior Front End <br />{" "}
                   Developer on the way to Full Stack, currently working as
@@ -61,7 +61,7 @@ function Hero() {
               </Col>
               <Col className="text-center about-img">
                 <Container className="about" data-aos="fade-left">
-                  <img src={logo} alt="" className="img-fluid rounded" />
+                  <img src={logo} alt="logo cedev" className="img-fluid rounded" style={{width:"80%"}} />
                 </Container>
               </Col>
             </Row>
