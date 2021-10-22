@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../media/logo.png";
+import logo from "../media/logoCEDEV.png";
 import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -16,7 +16,7 @@ function Footer() {
       <div className="container">
         <div className="row justify-content-center py-2">
           <div className="col-sm-12 text-center ">
-            <img src={logo} alt="" className="img-fluid w-25" />
+            <img src={logo} alt="" className="img-fluid py-3" style={{width:"15%"}}/>
           </div>
           <div className="col-sm-12 text-center " >
             {SidebarData.map((item, index) => {
