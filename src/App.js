@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import "./App.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
+import { fas } from '@fortawesome/free-solid-svg-icons'
 import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -13,7 +14,7 @@ import Projects from "./components/pages/Projects/Projects";
 import AboutMe from "./components/pages/AboutMe/About";
 import Contact from "./components/pages/Contact/Contact";
 
-library.add(fab, faCheckSquare, faCoffee);
+library.add(fab, fas, faCheckSquare, faCoffee);
 function App() {
   return (
     <div className="App">
