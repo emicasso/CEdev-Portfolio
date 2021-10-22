@@ -77,7 +77,7 @@ function Cards() {
   return (
     <div className="container-fluid cards__container align-items-center py-5" data-aos="fade-up">
       <div className="container">
-        <div className="row align-items-center justify-content-center text-center pt-5">
+        <div className="row align-items-center justify-content-center text-center pt-5 project-title">
           <h1>PROJECT</h1>
           <span>This is a summary of my personal projects.</span>
           <p>
