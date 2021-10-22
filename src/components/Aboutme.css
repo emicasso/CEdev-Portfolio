@@ -7,3 +7,23 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+.about--text h1 {
+    color: rgb(180, 61, 61);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 960px) {
+    .about--text {
+        width: 100% !important;
+        text-align: center;
+
+    }
+
+    .about--text h1 {
+        font-size: 28px;
+
+    }
+
+}
