@@ -4,3 +4,23 @@
     display: flex;
     justify-content: center;
 }
+
+.about-title h1{
+    color: rgb(180, 61, 61);
+    font-weight: 600;
+    font-size: 42px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 960px) {
+    .content-about img{
+        width: 60%;
+    }
+    .content-about .text-about{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }.about-title h1{
+        font-size: 25.5px;
+    }
+}

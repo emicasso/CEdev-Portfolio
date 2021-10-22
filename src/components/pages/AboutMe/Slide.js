@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import backBut from "../../../media/ww.svg";
 import SlideToggle from "react-slide-toggle";
 import React from "react";
 import "./Slide.css";
@@ -19,142 +17,12 @@ const ProgressBar = ({ progress }) => {
 
 function Slide() {
   return (
-    <div className="slide__content my-5">
+    <div className="slide__content py-5 text-light" style={{backgroundColor:"#001122"}}>
       <div className="container-fluid d-flex align-items-center">
         <div className="container align-items-center my-5">
           <div className="row align-items-center text-center">
             <div className="col-sm">
-              <SlideToggle
-                duration={800}
-                collapsed
-                render={({
-                  toggle,
-                  setCollapsibleElement,
-                  progress,
-                  range,
-                }) => (
-                  <div className="slide-toggle ">
-                    <div className="slide-toggle__header">
-                      <button className="slide-toggle__toggle" onClick={toggle}>
-                        Technologies
-                      </button>
-                      <ProgressBar progress={progress} />
-                    </div>
-                    <div
-                      className="slide-toggle__box"
-                      ref={setCollapsibleElement}
-                    >
-                      <div
-                        className="slide-toggle__box-inner"
-                        style={{ opacity: Math.max(0.5, range) }}
-                      >
-                        <div className="container">
-                          <div className="row">
-                            <div className="col-sm">
-                              <div className="container">
-                                <h4>Strong Technologies</h4>
-                                <ul className="nav flex-column py-3">
-                                  <li>
-                                    <FontAwesomeIcon icon={["fab", "js"]} />{" "}
-                                    Javascript ES6
-                                  </li>
-                                  <li>
-                                    <FontAwesomeIcon icon={["fab", "react"]} />{" "}
-                                    ReactJS
-                                  </li>
-                                  <li>
-                                    <FontAwesomeIcon icon={["fab", "html5"]} />{" "}
-                                    HTML
-                                  </li>
-                                  <li>
-                                    <FontAwesomeIcon icon={["fab", "css3"]} />{" "}
-                                    CSS
-                                  </li>
-                                  <li>
-                                    <FontAwesomeIcon icon={["fab", "php"]} />{" "}
-                                    PHP
-                                  </li>
-                                  <li>
-                                    <FontAwesomeIcon icon={["fab", "git"]} />{" "}
-                                    GIT
-                                  </li>
-                                  <li>
-                                    <img
-                                      src="https://img.icons8.com/ios/50/000000/adobe-xd--v1.png"
-                                      alt=""
-                                      className="logo_import"
-                                    />{" "}
-                                    Adobe XD
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                            <div className="col-sm">
-                              <div className="container">
-                                <h4>Frameworks, Libraries and Metodologies</h4>
-                                <ul className="nav flex-column py-3">
-                                  <li>
-                                    <FontAwesomeIcon
-                                      icon={["fab", "bootstrap"]}
-                                    />{" "}
-                                    Bootstrap
-                                  </li>
-                                  <li>
-                                    <FontAwesomeIcon icon={["fab", "sass"]} />{" "}
-                                    SASS
-                                  </li>
-                                  <li>
-                                    <FontAwesomeIcon
-                                      icon={["fab", "font-awesome-alt"]}
-                                    />{" "}
-                                    Font Awesome
-                                  </li>
-                                  <li>
-                                    <FontAwesomeIcon icon={["fab", "npm"]} />{" "}
-                                    NPM
-                                  </li>
-                                  <li>
-                                    <FontAwesomeIcon icon={["fab", "yarn"]} />{" "}
-                                    YARN
-                                  </li>
-                                  <li>SCRUM Metodology</li>
-                                </ul>
-                              </div>
-                            </div>
-                            <div className="col-sm">
-                              <div className="container">
-                                <h4>
-                                  Other languagues, frameworks and libraries
-                                  (begginer - intermediate)
-                                </h4>
-                                <ul className="nav flex-column py-3">
-                                  <li>
-                                    Angular
-                                    <FontAwesomeIcon
-                                      icon={["fab", "angular"]}
-                                    />{" "}
-                                  </li>
-                                  <li>
-                                    Java
-                                    <FontAwesomeIcon icon={["fab", "java"]} />
-                                  </li>
-                                  <li>
-                                    NodeJS
-                                    <FontAwesomeIcon
-                                      icon={["fab", "node"]}
-                                    />{" "}
-                                  </li>
-                                  <li>MySQL</li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                )}
-              />
+              
               <SlideToggle
                 duration={800}
                 collapsed

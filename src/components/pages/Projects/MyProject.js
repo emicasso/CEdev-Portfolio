@@ -31,7 +31,7 @@ function MyProject(project) {
                 href={project.Url}
                 target="_blank"
                 rel="noreferrer"
-                style={{ textDecoration: "none", color: "white" }}
+                style={{ textDecoration: "none", color: "black" }}
               >
                 Demo
               </a>

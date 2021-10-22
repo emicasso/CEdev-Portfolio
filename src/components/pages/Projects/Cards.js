@@ -62,7 +62,7 @@ const project = [
     description:
       "Made for a new venture selling clothes and accessories, it was also one of my first front-end projects.",
     technologies: ["HTLM", "CSS", "BOOTSTRAP", "JS", "FLEX-BOX", ""],
-    url: "https://github.com/emicasso/FlorByFran",
+    url: "https://florbyfran.netlify.app/",
   },
   {
     id: 4,
@@ -73,7 +73,7 @@ const project = [
     autor: ["CE{dev}"],
     description: "Website made in ReactJS. As a tutotial taken from Youtube but with many personal modifications of their own to expand knowledge",
     technologies: ["REACT JS", "REACK HOOKS", "BOOTSTRAP", "CSS", "HTML"],
-    url: "https://github.com/emicasso/Dviaje",
+    url: "https://dviaje.netlify.app/",
   },
   {
     id: 5,

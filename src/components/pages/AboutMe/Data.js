@@ -13,24 +13,24 @@ function Data() {
   return (
     <div className="data__content">
       <div
-        className="container-fluid d-flex align-items-end "
+        className="container-fluid  d-flex align-items-end "
         style={{
           backgroundImage: `url(${background})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
       >
-        <div className="container bg">
+        <div className="container bg content-about">
           <div className="row align-items-center text-center">
-            <div className="col-sm-6 " data-aos="fade-right">
+            <div className="col-sm-6" data-aos="fade-right">
               <div className="container mt-5" >
-                <img src={me} alt="" className="img-fluid mt-5" />
+                <img src={me} alt="" className="img-fluid mt-2" />
               </div>
             </div>
-            <div className="col-sm-6" data-aos="fade-down-left">
-              <h2 data-aos="fade-down-left">
+            <div className="col-sm-6 text-about about-title" data-aos="fade-down-left">
+              <h1 data-aos="fade-down-left">
                 You have to know this about me <span>&#128071;</span>
-              </h2>
+              </h1>
               <p data-aos="fade-down-left">
                 I am Emiliano Cassoni I have 24 years living in the city of
                 Corrientes, currently I am studying the Bachelor's Degree in
