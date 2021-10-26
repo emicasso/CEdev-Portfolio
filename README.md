@@ -1,22 +1,22 @@
 <h1 align="center" style="border-bottom: none">
     <b>
-        <a href="#">CE{DEV}</a><br>
+        <a href="https://cedev.netlify.app/#/">CE{DEV}</a><br>
     </b>
     :collision:My Portfolio in ReactJS:collision:<br>
 </h1>
 
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/emicasso/CE-dev-)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/emicasso/CEdev-Portfolio)
 
 > Welcome to my personal portfolio 💼
 ### Live Demo
-* [CE{dev}]()
+* [CE{dev}](https://cedev.netlify.app/#/)
 
 ## Starting 🚀
 
 1. Clone or download the repository 
 
 ```bash
-git clone https://github.com/emicasso/CE-dev-
+git clone https://github.com/emicasso/CEdev-Portfolio
 ```
 2. Change the working directory
 
@@ -58,7 +58,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 👤 **Emiliano Cassoni**
 
-* [Web]() 
+* [Web](https://cedev.netlify.app/#/) 
 * [LinkedIn](https://www.linkedin.com/in/emiliano-cassoni/)
 * [Github](https://github.com/emicasso)
 
