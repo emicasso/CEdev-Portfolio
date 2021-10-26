@@ -81,7 +81,7 @@ function Cards() {
           <h1>PROJECT</h1>
           <span>This is a summary of my personal projects.</span>
           <p>
-            Hope you like them and we can work together <span>&#129309;</span>.
+            Hope you like them and we can work together<span>&#129309;</span>.
           </p>
         </div>
         <div className="container">
