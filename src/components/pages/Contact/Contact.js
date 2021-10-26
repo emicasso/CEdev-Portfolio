@@ -3,12 +3,13 @@ import React, { useEffect, useRef } from "react";
 import "./Contact.css";
 import "aos/dist/aos.css";
 import Aos from "aos";
+import { Helmet } from "react-helmet";
 
 export const Contact = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
-  
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -34,6 +35,13 @@ export const Contact = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>CEdev Contact</title>
+        <meta
+          name="description"
+          content="Contact me to plan a project together"
+        />
+      </Helmet>
       <div className="container py-5" data-aos="fade-up">
         <div className="screen">
           <div className="screen-header">
@@ -79,7 +87,7 @@ export const Contact = () => {
                       required
                       name="email"
                     />
-                  </div>                                  
+                  </div>
                   <div className="app-form-group message">
                     <textarea
                       className="app-form-control"
@@ -91,7 +99,9 @@ export const Contact = () => {
                     ></textarea>
                   </div>
                   <div className="app-form-group buttons">
-                    <button className="app-form-button border rounded">SEND MENSSAGE</button>
+                    <button className="app-form-button border rounded">
+                      SEND MENSSAGE
+                    </button>
                   </div>
                 </div>
               </div>
