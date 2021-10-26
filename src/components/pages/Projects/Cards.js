@@ -16,7 +16,7 @@ import CotizadorSlide from "../../../media/CotizadorSlide.png";
 
 const project = [
   {
-    id: 1,
+    id: 3,
     name: 'Acuarium Posadas',
     imgP: Acuarium,
     imgS: AcuariumSlide,
@@ -50,10 +50,10 @@ const project = [
       "CSS",
       "REACT ROUTER",
     ],
-    url: "https://github.com/emicasso/CE-dev-",
+    url: "https://cedev.netlify.app/#/",
   },
   {
-    id: 3,
+    id: 1,
     imgP: florbyfranPage,
     imgS: florbyfranSlide,
     create: 2019,
