@@ -14,7 +14,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.1.1",
     "emailjs-com": "^3.2.0",
-    "immer": "^9.0.6",
+    "is-svg": "^4.2.2",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-rc.0",
     "react-burger-menu": "^3.0.6",
@@ -25,6 +25,7 @@
     "react-scripts": "4.0.3",
     "react-slide-toggle": "^0.3.5",
     "react-tooltip": "^4.2.21",
+    "set-value": "^4.1.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
