@@ -23,27 +23,29 @@ function Data() {
         <div className="container bg content-about">
           <div className="row align-items-center text-center">
             <div className="col-sm-6" data-aos="fade-right">
-              <div className="container mt-5" >
+              <div className="container mt-5">
                 <img src={me} alt="" className="img-fluid mt-2" />
               </div>
             </div>
-            <div className="col-sm-6 text-about about-title" data-aos="fade-down-left">
+            <div
+              className="col-sm-6 text-about about-title"
+              data-aos="fade-down-left"
+            >
               <h1 data-aos="fade-down-left">
                 You have to know this about me <span>&#128071;</span>
               </h1>
               <p data-aos="fade-down-left">
-                I am Emiliano Cassoni I have 24 years living in the city of
-                Corrientes, currently I am studying the Bachelor's Degree in
-                Information Systems at the UNNE. I am a Front-End Developer JR,
-                on my way to being a FullStack developer. I stand out for being
-                a very active person in the initiatives I take. I like to
-                provide support with my knowledge to third parties for the best
-                decision making. Very capable when it comes to learning about
-                new areas and internalizing myself in a new world. I am
-                currently looking for an opportunity to expand my knowledge and
-                be able to help as much as possible.
+                Hi, I'm Emiliano Cassoni, I'm 24. I'm living in Corrientes, ARG.
+                I study a Bachelor's Degree in Information Systems at UNNE. I'm
+                a Front-End Jr Developer since 2019, working with the most
+                frequent languages as HTML, JS, CSS. Framework like Rect js,
+                Angular, Node js, Bootstrap, etc. On my way to become Full
+                Stack Developer. As a programmer, I describe myself as a very
+                skilled person and capable of learning existing programming
+                languages ​​very quickly. I'd like to expand my knowledge and be
+                able to help as much as possible.
               </p>
-              <div className="container" >
+              <div className="container">
                 <a
                   href={
                     process.env.PUBLIC_URL +
