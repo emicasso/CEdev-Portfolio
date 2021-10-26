@@ -44,14 +44,13 @@ function Hero() {
                 <h1>
                   Hi everyone<span>&#128075;</span>!
                 </h1>
-                <h1>I am Cassoni Emiliano (CE)</h1>
+                <h1>I'm Cassoni Emiliano (CE)</h1>
                 <h5>
                   Welcome on my portfolio page! I'm Junior Front End <br />{" "}
-                  Developer on the way to Full Stack, currently working as
-                  <br />
+                  Developer on the way to become in Full Stack, currently I'm working as
                   Freelancer React Web Developer
                 </h5>
-                <p>Living in Corrientes, 🇦🇷. Land of Messi and Mate. </p>
+                <p>I live in Corrientes, 🇦🇷. Land of Messi and Mate. </p>
 
                 <Link to="/contact">
                   <Button variant="outline-dark text-light border-light">
