@@ -29,11 +29,11 @@ function Aboutme() {
                   Let me tell you something about me<span>&#128170;</span>!
                 </h1>
                 <p>
-                  I describe myself as an active, dynamic person, enthusiastic
-                  about achieving work goals. My goals are to gain experience,
-                  develop my work with excellent quality, with the greatest
-                  responsibility, be useful and perform with great success and
-                  as a good Argentine I love mate.
+                  I describe myself as an active and dynamic person.
+                  Enthusiastic about meeting job goals. My personal goals are to
+                  gain experience and knowledge to improve my jobs. I'd like to
+                  be useful in a work team and act responsibly to face new
+                  challenges. Also, as a good Argentinian I love mate.
                 </p>
                 <Link to="/about-me">
                   <Button variant="outline-dark text-light border-light">
