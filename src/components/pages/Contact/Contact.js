@@ -34,7 +34,7 @@ export const Contact = () => {
   };
 
   return (
-    <div>
+    <main>
       <Helmet>
         <title>CEdev Contact</title>
         <meta
@@ -110,7 +110,7 @@ export const Contact = () => {
         </div>
       </div>
       ;
-    </div>
+    </main>
   );
 };
 

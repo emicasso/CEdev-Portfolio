@@ -6,7 +6,8 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom"
+import {Switch} from 'react-router'
 
 import ScrollToTop from "./components/ScrollToTop";
 import Home from "./components/pages/HomePage/Home";

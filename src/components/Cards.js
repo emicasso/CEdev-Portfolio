@@ -75,7 +75,7 @@ function Cards() {
   }, []);
 
   return (
-    <div className="container-fluid cards__container align-items-center py-5" data-aos="fade-up">
+    <section className="container-fluid cards__container align-items-center py-5" data-aos="fade-up">
       <div className="container">
         <div className="row align-items-center justify-content-center text-center pt-5 project-title">
           <h1>PROJECT</h1>
@@ -84,6 +84,7 @@ function Cards() {
             Hope you like them and we can work together<span>&#129309;</span>.
           </p>
         </div>
+
         <div className="container">
           <div className="row align-items-center justify-content-center py-3">
             {cards.map((card) => (
@@ -110,8 +111,9 @@ function Cards() {
             </Link>
           </Container>
         </div>
+
       </div>
-    </div>
+    </section>
   );
 }
 

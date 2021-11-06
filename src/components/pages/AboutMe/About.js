@@ -7,7 +7,7 @@ import Technologies from "./Technologies";
 
 function About() {
   return (
-    <>
+    <main>
       <Helmet>
         <title>CEdev About me</title>
         <meta
@@ -18,7 +18,7 @@ function About() {
       <Data></Data>
       <Technologies></Technologies>
       <Slide></Slide>
-    </>
+    </main>
   );
 }
 

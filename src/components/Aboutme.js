@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function Aboutme() {
   return (
-    <div
+    <section
       className="about-container py-5"
       style={{
         backgroundImage: `url(${background})`,
@@ -45,7 +45,7 @@ function Aboutme() {
           </Container>
         </Container>
       </Container>
-    </div>
+    </section>
   );
 }
 

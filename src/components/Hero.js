@@ -16,20 +16,21 @@ function Hero() {
   }, []);
 
   return (
-    <Container
-      fluid
-      className=" py-5"
-      style={{
-        backgroundImage: `url(${background})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
-      <Container className="hero align-items-center  justify-content-center pb-5">
-        <Container className="py-5">
-          <Row className="text-center justify-content-center ">
-            {/* <Container className="logo">
+    <section>
+      <Container
+        fluid
+        className=" py-5"
+        style={{
+          backgroundImage: `url(${background})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <Container className="hero align-items-center  justify-content-center pb-5">
+          <Container className="py-5">
+            <Row className="text-center justify-content-center ">
+              {/* <Container className="logo">
               <img
                 src={""}
                 alt=""
@@ -37,37 +38,46 @@ function Hero() {
                 style={{ width: "8%" }}
               />
             </Container> */}
-          </Row>
-          <Container>
-            <Row className="justify-content-center align-items-center">
-              <Col className="text-light about-text hero-title" data-aos="fade-right">
-                <h1>
-                  Hi everyone<span>&#128075;</span>!
-                </h1>
-                <h1>I'm Cassoni Emiliano (CE)</h1>
-                <h5>
-                  Welcome on my portfolio page! I'm Junior Front End <br />{" "}
-                  Developer on the way to become in Full Stack, currently I'm working as
-                  Freelancer React Web Developer
-                </h5>
-                <p>I live in Corrientes, 🇦🇷. Land of Messi and Mate. </p>
-
-                <Link to="/contact">
-                  <Button variant="outline-dark text-light border-light">
-                    Contact Me
-                  </Button>
-                </Link>
-              </Col>
-              <Col className="text-center about-img">
-                <Container className="about" data-aos="fade-left">
-                  <img src={logo} alt="logo cedev" className="img-fluid rounded" style={{width:"80%"}} />
-                </Container>
-              </Col>
             </Row>
+            <Container>
+              <Row className="justify-content-center align-items-center">
+                <Col
+                  className="text-light about-text hero-title"
+                  data-aos="fade-right"
+                >
+                  <h1>
+                    Hi everyone<span>&#128075;</span>!
+                  </h1>
+                  <h1>I'm Cassoni Emiliano (CE)</h1>
+                  <h5>
+                    Welcome on my portfolio page! I'm Junior Front End <br />{" "}
+                    Developer on the way to become in Full Stack, currently I'm
+                    working as Freelancer React Web Developer
+                  </h5>
+                  <p>I live in Corrientes, 🇦🇷. Land of Messi and Mate. </p>
+
+                  <Link to="/contact">
+                    <Button variant="outline-dark text-light border-light">
+                      Contact Me
+                    </Button>
+                  </Link>
+                </Col>
+                <Col className="text-center about-img">
+                  <Container className="about" data-aos="fade-left">
+                    <img
+                      src={logo}
+                      alt="logo cedev"
+                      className="img-fluid rounded"
+                      style={{ width: "80%" }}
+                    />
+                  </Container>
+                </Col>
+              </Row>
+            </Container>
           </Container>
         </Container>
       </Container>
-    </Container>
+    </section>
   );
 }
 

@@ -8,11 +8,11 @@ import Aboutme from "../../Aboutme";
 
 function Home() {
   return (
-    <div className="hero-content">
+    <main className="hero-content">
       <Hero />
       <Cards />
       <Aboutme />
-    </div>
+    </main>
   );
 }
 
