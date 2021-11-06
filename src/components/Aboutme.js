@@ -26,7 +26,7 @@ function Aboutme() {
               </Col>
               <Col xs={6} className="text-light about--text">
                 <h1>
-                  Let me tell you something about me<span>&#128170;</span>!
+                  Let me tell you something about me<span role="img" aria-label="Flexed Biceps">&#128170;</span>!
                 </h1>
                 <p>
                   I describe myself as an active and dynamic person.

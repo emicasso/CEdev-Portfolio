@@ -32,7 +32,7 @@ function Data() {
               data-aos="fade-down-left"
             >
               <h1 data-aos="fade-down-left">
-                You have to know this about me <span>&#128071;</span>
+                You have to know this about me <span role="img" aria-label="Pointing Down">&#128071;</span>
               </h1>
               <p data-aos="fade-down-left">
                 Hi, I'm Emiliano Cassoni, I'm 24. I'm living in Corrientes, ARG.

@@ -211,8 +211,7 @@ function Technologies() {
                 
               </h5>
               <a
-                href="https://github.com/emicasso"
-                target="_blank"
+                href="https://github.com/emicasso"                
                 rel="noreferrer"
               >
                 <Button variant="outline-light">GitHub</Button>

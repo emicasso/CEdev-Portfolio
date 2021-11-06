@@ -30,14 +30,6 @@ function Hero() {
         <Container className="hero align-items-center  justify-content-center pb-5">
           <Container className="py-5">
             <Row className="text-center justify-content-center ">
-              {/* <Container className="logo">
-              <img
-                src={""}
-                alt=""
-                className="img-fluid "
-                style={{ width: "8%" }}
-              />
-            </Container> */}
             </Row>
             <Container>
               <Row className="justify-content-center align-items-center">
@@ -46,7 +38,7 @@ function Hero() {
                   data-aos="fade-right"
                 >
                   <h1>
-                    Hi everyone<span>&#128075;</span>!
+                    Hi everyone<span role="img" aria-label="hello">&#128075;</span>!
                   </h1>
                   <h1>I'm Cassoni Emiliano (CE)</h1>
                   <h5>
@@ -54,8 +46,7 @@ function Hero() {
                     Developer on the way to become in Full Stack, currently I'm
                     working as Freelancer React Web Developer
                   </h5>
-                  <p>I live in Corrientes, 🇦🇷. Land of Messi and Mate. </p>
-
+                  <p>I live in Corrientes,<span role="img" aria-label="argentina">🇦🇷</span>. Land of Messi and Mate. </p>
                   <Link to="/contact">
                     <Button variant="outline-dark text-light border-light">
                       Contact Me

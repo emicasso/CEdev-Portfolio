@@ -11,10 +11,7 @@ function MyProject(project) {
 
   return (
     <>
-      <div
-        className="movie_card" data-aos="fade-up"
-        id="bright"
-      >
+      <div className="movie_card" data-aos="fade-up" id="bright">
         <div className="info_section">
           <div className="movie_header">
             <img src={project.imageS} className="locandina" alt="" />
@@ -29,7 +26,6 @@ function MyProject(project) {
               {" "}
               <a
                 href={project.Url}
-                target="_blank"
                 rel="noreferrer"
                 style={{ textDecoration: "none", color: "black" }}
               >

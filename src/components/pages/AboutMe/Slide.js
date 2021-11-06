@@ -91,7 +91,7 @@ function Slide() {
                             </div>
                             <div className="container">
                             <h1>Certifications</h1>
-                                    <h3 >(You can see them in my <a href="https://www.linkedin.com/in/emiliano-cassoni/" target="_blank" rel="noreferrer">LinkedIn</a>)</h3>
+                                    <h3 >(You can see them in my <a href="https://www.linkedin.com/in/emiliano-cassoni/"  rel="noreferrer">LinkedIn</a>)</h3>
                                     <ul style={{ listStyleType: "none" }}>
                                         <li>
                                             Desarrollo Web con Angular 11+ (Udemy) (August 2021)
