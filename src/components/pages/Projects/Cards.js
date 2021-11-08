@@ -13,6 +13,8 @@ import brithdayPage from "../../../media/brithdayPage.png";
 import brithdaySlide from "../../../media/brithdaySlide.png";
 import CotizadorPage from "../../../media/CotizadorPage.png";
 import CotizadorSlide from "../../../media/CotizadorSlide.png";
+import CalculatorPage from "../../../media/sCalculatorPage.png";
+import CalculatorSlide from "../../../media/sCalculatorSlide.png";
 
 const project = [
   {
@@ -76,10 +78,21 @@ const project = [
     url: "https://github.com/emicasso/Aquarium-Posadas",
   },
   {
+    id: 7,
+    imgP: CalculatorPage,
+    imgS: CalculatorSlide,
+    create: 2021,
+    name: "sCalculator",
+    autor: ["CE{dev}"],
+    description: "For learning purposes, I saw a video tutorial to create a calculator app handling very attractive hooks and styles.",
+    technologies: ["REACT JS", "REACK HOOKS", "CSS", "HTML"],
+    url: "https://scalculadora.netlify.app/",
+  },
+  {
     id: 5,
     imgP: brithdayPage,
     imgS: brithdaySlide,
-    create: 2021,
+    create: 2020,
     name: "Brithday",
     autor: ["CE{dev}"],
     description: "User upload app to schedule birthdays. Entry and Creations of users so that each one has a unique database with its own agenda",
@@ -90,7 +103,7 @@ const project = [
     id: 6,
     imgP: CotizadorPage,
     imgS: CotizadorSlide,
-    create: 2021,
+    create: 2020,
     name: "Cotizador Prestamos",
     autor: ["CE{dev}"],
     description: "Loan quote, where the user can enter the amount he wants to request in the loan, the interest and the terms in which he will pay.",
