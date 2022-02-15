@@ -17,6 +17,8 @@ import CalculatorPage from "../../../media/sCalculatorPage.png";
 import CalculatorSlide from "../../../media/sCalculatorSlide.png";
 import rickandmortyPage from "../../../media/rickandmortyPage.png";
 import rickandmortySlide from "../../../media/rickandmortySlide.png";
+import weatherPage from "../../../media/weatherPage.png";
+import weatherSlide from "../../../media/weatherSlide.png";
 
 const project = [
   {
@@ -59,6 +61,17 @@ const project = [
     description: "Website made in ReactJS. As a tutotial taken from Youtube but with many personal modifications of their own to expand knowledge",
     technologies: ["REACT JS", "REACK HOOKS", "BOOTSTRAP", "CSS", "HTML"],
     url: "https://dviaje.netlify.app/",
+  }, 
+  {
+    id: 9,
+    imgP: weatherPage,
+    imgS: weatherSlide,
+    create: 2021,
+    name: "Weather APP ",
+    autor: ["CE{dev}"],
+    description: "Website made in ReactJS and tailwind. As a tutorial taken from YouTube but with many personal modifications of my own to expand knowledge with the Apis call functions",
+    technologies: ["REACT JS", "REACK HOOKS", "TAILWIND", "API", "CSS", "HTML"],
+    url: "https://weathercedev.netlify.app/",
   },
   {
     id: 3,
