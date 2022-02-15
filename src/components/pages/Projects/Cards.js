@@ -15,6 +15,8 @@ import CotizadorPage from "../../../media/CotizadorPage.png";
 import CotizadorSlide from "../../../media/CotizadorSlide.png";
 import CalculatorPage from "../../../media/sCalculatorPage.png";
 import CalculatorSlide from "../../../media/sCalculatorSlide.png";
+import rickandmortyPage from "../../../media/rickandmortyPage.png";
+import rickandmortySlide from "../../../media/rickandmortySlide.png";
 
 const project = [
   {
@@ -87,6 +89,17 @@ const project = [
     description: "For learning purposes, I saw a video tutorial to create a calculator app handling very attractive hooks and styles.",
     technologies: ["REACT JS", "REACK HOOKS", "CSS", "HTML"],
     url: "https://scalculadora.netlify.app/",
+  },
+  {
+    id: 8,
+    imgP: rickandmortyPage,
+    imgS: rickandmortySlide,
+    create: 2021,
+    name: "Rick And Morty API",
+    autor: ["CE{dev}"],
+    description: "Search page design for Characters from the Rick and Morty series with API call.",
+    technologies: ["REACT JS", "REACK HOOKS", "API", "CSS", "HTML"],
+    url: "https://rickandmortycedev.netlify.app/",
   },
   {
     id: 5,
