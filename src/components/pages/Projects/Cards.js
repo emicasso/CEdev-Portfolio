@@ -39,7 +39,7 @@ const project = [
     id: 10,
     imgP: PokedexPage,
     imgS: PokedexSlide,
-    create: 2021,
+    create: 2022,
     name: "Pokedex app",
     autor: ["CE{dev}"],
     description:
@@ -50,7 +50,7 @@ const project = [
       "CUSTOME HOOKS",
       "REACT ROUTER",
     ],
-    url: "https://cedev.netlify.app/#/",
+    url: "https://pokemonapp-ce.netlify.app/",
   },
   {
     id: 2,
