@@ -19,6 +19,8 @@ import rickandmortyPage from "../../../media/rickandmortyPage.png";
 import rickandmortySlide from "../../../media/rickandmortySlide.png";
 import weatherPage from "../../../media/weatherPage.png";
 import weatherSlide from "../../../media/weatherSlide.png";
+import PokedexPage from "../../../media/PokedexPage.png";
+import PokedexSlide from "../../../media/PokedexSlide.png";
 
 const project = [
   {
@@ -32,6 +34,23 @@ const project = [
       "Made for a new venture selling clothes and accessories, it was also one of my first front-end projects.",
     technologies: ["HTLM", "CSS", "BOOTSTRAP", "JS", "FLEX-BOX", ""],
     url: "https://florbyfran.netlify.app/",
+  },
+  {
+    id: 10,
+    imgP: PokedexPage,
+    imgS: PokedexSlide,
+    create: 2021,
+    name: "Pokedex app",
+    autor: ["CE{dev}"],
+    description:
+      "Website made in ReactJS and tailwind. As a challenge for Devlight company bootcamp",    technologies: [
+      "REACT JS",
+      "TAILWIND CSS",
+      "REACT HOOK",
+      "CUSTOME HOOKS",
+      "REACT ROUTER",
+    ],
+    url: "https://cedev.netlify.app/#/",
   },
   {
     id: 2,
@@ -66,12 +85,12 @@ const project = [
     id: 9,
     imgP: weatherPage,
     imgS: weatherSlide,
-    create: 2021,
-    name: "Weather APP ",
+    create: 2022,
+    name: "Pronostico APP ",
     autor: ["CE{dev}"],
-    description: "Website made in ReactJS and tailwind. As a tutorial taken from YouTube but with many personal modifications of my own to expand knowledge with the Apis call functions",
-    technologies: ["REACT JS", "REACK HOOKS", "TAILWIND", "API", "CSS", "HTML"],
-    url: "https://weathercedev.netlify.app/",
+    description: "Website made in ReactJS and tailwind. As a challenge for Devlight company bootcamp",
+    technologies: ["REACT JS", "REACK HOOKS", "TAILWIND", "API", "CUSTOME HOOKS"],
+    url: "https://pronostico-app.netlify.app/",
   },
   {
     id: 3,
