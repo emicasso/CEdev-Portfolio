@@ -21,8 +21,8 @@ import weatherPage from "../../../media/weatherPage.png";
 import weatherSlide from "../../../media/weatherSlide.png";
 import PokedexPage from "../../../media/PokedexPage.png";
 import PokedexSlide from "../../../media/PokedexSlide.png";
-import TheMovieappPage from "../../../media/TheMovieappPage.png";
-import TheMovieappSlide from "../../../media/TheMovieappSlide.png";
+import TheMovieappPage from "../../../media/ThemovieappPage.png";
+import TheMovieappSlide from "../../../media/ThemovieappSlide.png";
 
 const project = [
   {
