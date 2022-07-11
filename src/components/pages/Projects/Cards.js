@@ -21,6 +21,8 @@ import weatherPage from "../../../media/weatherPage.png";
 import weatherSlide from "../../../media/weatherSlide.png";
 import PokedexPage from "../../../media/PokedexPage.png";
 import PokedexSlide from "../../../media/PokedexSlide.png";
+import TheMovieappPage from "../../../media/TheMovieappPage.png";
+import TheMovieappSlide from "../../../media/TheMovieappSlide.png";
 
 const project = [
   {
@@ -36,6 +38,25 @@ const project = [
     url: "https://florbyfran.netlify.app/",
   },
   {
+    id: 11,
+    imgP: TheMovieappPage,
+    imgS: TheMovieappSlide,
+    create: 2022,
+    name: "The movie app",
+    autor: ["CE{dev}"],
+    description:
+      "Website made in ReactJS and Sass. As a challenge to increase knowledge and improve skills.",
+    technologies: [
+      "REACT JS",
+      "Sass",
+      "REACT HOOK",
+      "Custome Hooks",
+      "useContext",
+      "REACT ROUTER",
+    ],
+    url: "https://themovieapp-ce.netlify.app/",
+  },
+  {
     id: 10,
     imgP: PokedexPage,
     imgS: PokedexSlide,
@@ -43,7 +64,8 @@ const project = [
     name: "Pokedex app",
     autor: ["CE{dev}"],
     description:
-      "Website made in ReactJS and tailwind. As a challenge for Devlight company bootcamp",    technologies: [
+      "Website made in ReactJS and tailwind. As a challenge for Devlight company bootcamp",
+    technologies: [
       "REACT JS",
       "TAILWIND CSS",
       "REACT HOOK",
@@ -60,7 +82,8 @@ const project = [
     name: "CE{Dev}",
     autor: ["CE{dev}"],
     description:
-      "Creation of my Portfolio in ReactJs in which I personally design based on my tastes and knowledge. My Personal Projects and My Data are located",    technologies: [
+      "Creation of my Portfolio in ReactJs in which I personally design based on my tastes and knowledge. My Personal Projects and My Data are located",
+    technologies: [
       "REACT JS",
       "JS",
       "BOOTSTRAP",
@@ -69,7 +92,7 @@ const project = [
       "REACT ROUTER",
     ],
     url: "https://cedev.netlify.app/#/",
-  },  
+  },
   {
     id: 4,
     imgP: DviajePage,
@@ -77,10 +100,11 @@ const project = [
     create: 2021,
     name: "Dviaje",
     autor: ["CE{dev}"],
-    description: "Website made in ReactJS. As a tutotial taken from Youtube but with many personal modifications of their own to expand knowledge",
+    description:
+      "Website made in ReactJS. As a tutotial taken from Youtube but with many personal modifications of their own to expand knowledge",
     technologies: ["REACT JS", "REACK HOOKS", "BOOTSTRAP", "CSS", "HTML"],
     url: "https://dviaje.netlify.app/",
-  }, 
+  },
   {
     id: 9,
     imgP: weatherPage,
@@ -88,18 +112,26 @@ const project = [
     create: 2022,
     name: "Pronostico APP ",
     autor: ["CE{dev}"],
-    description: "Website made in ReactJS and tailwind. As a challenge for Devlight company bootcamp",
-    technologies: ["REACT JS", "REACK HOOKS", "TAILWIND", "API", "CUSTOME HOOKS"],
+    description:
+      "Website made in ReactJS and tailwind. As a challenge for Devlight company bootcamp",
+    technologies: [
+      "REACT JS",
+      "REACK HOOKS",
+      "TAILWIND",
+      "API",
+      "CUSTOME HOOKS",
+    ],
     url: "https://pronostico-app.netlify.app/",
   },
   {
     id: 3,
-    name: 'Acuarium Posadas',
+    name: "Acuarium Posadas",
     imgP: Acuarium,
     imgS: AcuariumSlide,
     create: 2020,
     autor: ["CE{dev}"],
-    description:"Ecommerce dedicated to the sale of ornamental fish, care materials, fish tanks personzalidas. Created and designed for Acuarium-Posadas Argentina client. (Also presented as a final project in the Faculty where I study)",
+    description:
+      "Ecommerce dedicated to the sale of ornamental fish, care materials, fish tanks personzalidas. Created and designed for Acuarium-Posadas Argentina client. (Also presented as a final project in the Faculty where I study)",
     technologies: [
       "PHP",
       "CODEIGNITER",
@@ -118,7 +150,8 @@ const project = [
     create: 2021,
     name: "sCalculator",
     autor: ["CE{dev}"],
-    description: "For learning purposes, I saw a video tutorial to create a calculator app handling very attractive hooks and styles.",
+    description:
+      "For learning purposes, I saw a video tutorial to create a calculator app handling very attractive hooks and styles.",
     technologies: ["REACT JS", "REACK HOOKS", "CSS", "HTML"],
     url: "https://scalculadora.netlify.app/",
   },
@@ -129,7 +162,8 @@ const project = [
     create: 2021,
     name: "Rick And Morty API",
     autor: ["CE{dev}"],
-    description: "Search page design for Characters from the Rick and Morty series with API call.",
+    description:
+      "Search page design for Characters from the Rick and Morty series with API call.",
     technologies: ["REACT JS", "REACK HOOKS", "API", "CSS", "HTML"],
     url: "https://rickandmortycedev.netlify.app/",
   },
@@ -140,8 +174,15 @@ const project = [
     create: 2020,
     name: "Brithday",
     autor: ["CE{dev}"],
-    description: "User upload app to schedule birthdays. Entry and Creations of users so that each one has a unique database with its own agenda",
-    technologies: ["REACT NATIVE", "REACK HOOKS", "ANDROID STUDIO", "FIREBASE", "HTML"],
+    description:
+      "User upload app to schedule birthdays. Entry and Creations of users so that each one has a unique database with its own agenda",
+    technologies: [
+      "REACT NATIVE",
+      "REACK HOOKS",
+      "ANDROID STUDIO",
+      "FIREBASE",
+      "HTML",
+    ],
     url: "https://github.com/emicasso/Brithday",
   },
   {
@@ -151,10 +192,17 @@ const project = [
     create: 2020,
     name: "Cotizador Prestamos",
     autor: ["CE{dev}"],
-    description: "Loan quote, where the user can enter the amount he wants to request in the loan, the interest and the terms in which he will pay.",
-    technologies: ["REACT NATIVE", "REACK HOOKS", "ANDROID STUDIO", "CSS", "HTML"],
+    description:
+      "Loan quote, where the user can enter the amount he wants to request in the loan, the interest and the terms in which he will pay.",
+    technologies: [
+      "REACT NATIVE",
+      "REACK HOOKS",
+      "ANDROID STUDIO",
+      "CSS",
+      "HTML",
+    ],
     url: "https://github.com/emicasso/CotizadordePrestamos",
-  }
+  },
 ];
 
 function Cards() {
